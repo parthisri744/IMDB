@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(243, 241, 241);
+    margin: 0px 10px 0px 10px;
+}
+.header{
+    height: 80px;
+
+    }
+    .header .header-block {   
+    width: 1000px;
+    margin: 0 auto;
+    }
+    .logo {
+        float: left;
+        margin: 0 auto;
+        margin: 3px 0px 3px 5px;
+    }
+    .menu {
+        width: 600px;
+        float: left;
+        }
+        .menu ul {
+            padding-top:0px
+        }
+        .menu ul li{
+            float: left;
+            list-style-type: none;
+            margin-left: 20px;
+            padding: 2px;
+        }
+        .search-container {
+            float: none;
+          }
+           input[type=text] {
+            width: 400px;
+            font-size: 17px; 
+            margin-top: 12px;
+            padding: 2px;
+          }      
+           .search-container button {
+            font-size: 17px;
+            background: #ddd;
+            border: none;
+            cursor: pointer;
+            padding: 4px 12px 4px 12px;
+          }
+           .search-container button:hover {
+            background: #ccc;
+          }
+          .bookmark {
+              font-size: x-large;
+              margin:-22px 0px 0px 1300px;
+          }
+          .profile {
+            font-size: x-large;
+            margin:-28px 0px 0px 1350px;
+          }
+          .slider {
+              width: 100%;
+              height: 400px;
+             background-image: url(https://s3.crackedcdn.com/phpimages/article/1/9/1/612191_v2.jpg);
+             background-size: contain; 
+          }
+          .slider-block {
+              width: 900px;
+              height: 400px;
+              margin-left: 300px;
+          }      
+          .content {
+            height: 700px;
+            background-color: rgb(231, 226, 226);
+          }
+          .content-block {
+            margin-left: 150px;
+          }
+          .card  {
+            width: 200px;
+            margin: 5px 0px 5px 20px ;
+            float: left;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background-color: white;
+            box-shadow: 2px 2px  gray;
+        }
+        .card-block {
+          background-color: white; 
+        }
+        #img {
+            padding: 8px 0px 0px 10px;
+        }
+          #p2 {
+            color: black;
+            font-weight: bold;
+            margin-left: 530px;   
+            padding-top: 20px; 
+           }
+           .born-today {
+            width: 100%;
+            height:     250px;
+            background-color: #111;
+            margin-top: -40px;
+          }
+          .born-today-content {
+            margin-left: 200px;
+          }
+          .cards  {
+            width: 100px;
+            margin: 5px 0px 5px 20px ;
+            float: left;
+            background-color: #111
+        }
+        .cards:hover {
+            background-color: #111;
+            color: white;
+        }
+        .born-today-content p{
+          background-color: #111;
+        } 
+        #i {
+            font-size: 48px;
+            color:white;
+            padding: 20px;
+            margin-top: 20px;
+            float: left;
+        }
+        .fa {
+            margin-top: 20px;
+            padding: 20px;
+            padding-left: 8px;
+            font-size: 15px;
+            width: 25px;
+            text-decoration: none;
+          }
+          
+          .fa:hover {
+              opacity: 0.7;
+          }
+          
+          .fa-facebook {
+           
+            background: gray;
+            color: white;
+            border: none;
+            border-radius: 50%;
+          }
+          .fa-twitter {
+            margin-left: 550px;
+            background: gray;
+            color: white;
+            border: none;
+            border-radius: 50%;
+          }
+          .fa-instagram {
+            background: gray;
+            color: white;
+            border: none;
+            border-radius: 50%;
+          }
+        
+        
